@@ -1,0 +1,30 @@
+  646  Use -n to show the line number of the match:
+  647  -n
+  648  sort -n
+  649  grep -n
+  650  history | tail -n 30 > For_Daniel_grep.txt
+  651  -n
+  652  ls -n
+  653  grep -i -w -v ara spawannxs.txt
+  654  history | tail -n 30 > For_Daniel_grep.txt
+  655  mkdir TestFind
+  656  cd TestFind
+  657  mkdir -p Dir1/Dir11/Dir111
+  658  mkdir Dir2
+  659  mkdir Dir3
+  660  touch Dir1/File1.txt
+  661  touch Dir1/File1.csv
+  662  touch Dir1/File1.tex
+  663  touch Dir2/File2.txt
+  664  touch Dir2/File2.csv
+  665  touch Dir2/File2.tex
+  666  touch Dir1/Dir11/Dir111/File111.txt
+  667  touch Dir3/File3.txt
+  668  find . -name "File1.txt"
+  669  find . -name "*.txt" 
+  670  find . -maxdepth 2 -name "*.txt"
+  671  find . -maxdepth 2 -not -name "*.txt" 
+  672  find . -type d  
+  673  find . -type f -exec ls -s {} \; | sort -n | head -10
+  674  ls
+  675  history | tail -n 30 > For_Daniel_find.txt

@@ -1,0 +1,30 @@
+  601  cd TestD
+  602  cd TestDirectory/
+  603  ls
+  604  touch Test.txt
+  605  ls
+  606  rm TestDirectory/Test.txt
+  607  cd ../
+  608  rm TestDirectory/Test.txt
+  609  rmdir TestDirectory
+  610  ls
+  611  echo "My first line." > test.txt
+  612  cat test.txt
+  613  echo "My second line" >> test.txt
+  614  ls / >> ListRootDir.txt
+  615  cat ListRootDir.txt
+  616  mkdir TestWild
+  617  cd TestWild
+  618  touch File1txt
+  619  touch File2.txt
+  620  touch File3.txt
+  621  touch File4.txt
+  622  touch File1.csv
+  623  touch File2.csv
+  624  touch File3.csv
+  625  touch File4.csv
+  626  touch Anotherfile.csv
+  627  touch Anotherfile.txt
+  628  ls
+  629  ls | wc -l
+  630  history | tail -n 30 > For_Daniel_Wildcard.txt

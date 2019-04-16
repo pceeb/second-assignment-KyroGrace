@@ -1,0 +1,50 @@
+  831  wc -l darwin_t.txt 
+  832  tail -n -13900 otoos10.txt | tail -n +264 > darwin_t.txt 
+  833  wc -l darwin_t.txt 
+  834  cp darwin_t.txt darwin.txt
+  835  less darwin.txt
+  836  ls
+  837  cd tempdirectoryweek3/
+  838  ls
+  839  cd ../
+  840  cd Week3
+  841  cd classdata/
+  842  ls
+  843  cd Week
+  844  cd Week3
+  845  ls
+  846  cd ~
+  847  ls
+  848  less my_file.txt 
+  849  less file 
+  850  cd eeb177/
+  851  ls
+  852  cd ~
+  853  cd introscicomp2014/
+  854  ls
+  855  cd UNIX/
+  856  ls
+  857  cd Data/
+  858  ls
+  859  less darwin.txt 
+  860  ws -l darwin
+  861  ws -l darwin.txt 
+  862  wc -l darwin.txt 
+  863  cd ~
+  864  ls
+  865  less testfile01.txt 
+  866  cd ~
+  867  cd introscicomp2014/
+  868  ls
+  869  cd UNIX/
+  870  LS
+  871  ls
+  872  cd Data/
+  873  ls
+  874  less darwin.txt 
+  875  grep -W "evolution" darwin.txt | wc - l
+  876  grep -W "evolved" darwin.txt | wc - l
+  877  grep -W "natural selection" darwin.txt | wc - l
+  878  grep -W "Wallace" darwin.txt | wc - l
+  879  $ history | tail -n 50 >> For_Daniel_realData.txt
+  880   history | tail -n 50 >> For_Daniel_realData.txt
